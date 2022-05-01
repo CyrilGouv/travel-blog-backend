@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_localisation_localisations",
+  "info": {
+    "displayName": "Localisation",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    }
+  }
+}
