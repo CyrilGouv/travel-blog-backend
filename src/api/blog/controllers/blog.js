@@ -22,7 +22,7 @@ module.exports = createCoreController('api::blog.blog', ({ strapi }) => ({
                     }
                 },
                 categories: true,
-                    
+                localisation: true,
             },
         });
         const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
