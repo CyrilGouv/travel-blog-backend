@@ -50,6 +50,9 @@ module.exports = createCoreController('api::category.category', ({ strapi }) => 
                         },
                         categories: true,
                     },
+                    sort: {
+                        publishedAt: 'DESC'
+                    },
                 },
             },
         })
